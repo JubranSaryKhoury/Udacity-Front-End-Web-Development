@@ -1,0 +1,109 @@
+.mainLayout {
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+.navigator {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  background: #380343;
+  padding: 1px;
+}
+.navigator li {
+  flex-grow: 1;
+}
+
+.button {
+  width: 100%;
+  flex-grow: 1;
+  background: #567eff;
+  color: black;
+  font-weight: bolder;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 900px;
+}
+
+.sectionTitle {
+  font-size: 3.8vw;
+  margin-top: 90px;
+  margin-left: 60px;
+  color: goldenrod;
+  font-weight: bolder;
+}
+
+.title {
+  display: flex;
+  height: 750px;
+  justify-content: center;
+  align-items: center;
+  background: #75f4e1;
+}
+
+.EURO {
+  font-size: 10vw;
+  margin-bottom: 110px;
+  font-family: "Brush Script MT";
+  color: revert;
+}
+
+.HR {
+  height: 4px;
+  width: 80%;
+  border-color: #020507;
+  border-style: solid;
+}
+
+.paragraph {
+  width: 70%;
+  margin-top: 30px;
+  margin-left: 60px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.france {
+  background: linear-gradient(to right, #00138a 33.33%, #fbfbfb 33.33%, #fcfdfc 66.66%, #a80814 66.66%);
+  color: goldenrod;
+}
+
+.italy {
+  background: linear-gradient(to right, #027804 33.33%, #fafaf7 33.33%, #fdfdfb 66.66%, #c30606 66.66%);
+}
+
+.italy .sectionTitle, .italy .paragraph {
+  color: black;
+}
+
+.belgium {
+  background: linear-gradient(to right, #050505 33.33%, #bdb909 33.33%, #bfbb0b 66.66%, #ae0613 66.66%);
+}
+
+.belgium .sectionTitle, .belgium .paragraph {
+  color: white;
+}
+
+.romania {
+  background: linear-gradient(to right, #012d98 33.33%, #e4df0a 33.33%, #dcd60b 66.66%, #d10717 66.66%);
+}
+
+.romania .sectionTitle, .romania .paragraph {
+  color: white;
+}
+
+.button.active {
+  background: #ff5733;
+  color: white;
+}

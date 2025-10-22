@@ -1,0 +1,18 @@
+footer {
+  background-color: #5b80dc;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  box-sizing: border-box;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}

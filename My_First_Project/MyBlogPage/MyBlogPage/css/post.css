@@ -1,0 +1,104 @@
+.go-back {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.go-back img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.go-back a {
+  font-size: 25px;
+  color: rgb(68, 7, 236);
+}
+
+.title {
+  margin-top: 4.5%;
+  margin-left: 2%;
+}
+
+.title h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: black;
+}
+
+.my-info h2 {
+  font-size: 30px;
+  color: rgb(7, 7, 7);
+  margin-top: 7%;
+  margin-left: 12%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.left-side-info {
+  display: grid;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.right-side-info {
+  flex: 2;
+}
+
+.right-side-info p {
+  font-size: xx-large;
+  font-weight: bold;
+  color: black;
+  margin-top: 8%;
+}
+
+.personal-info,
+.contact-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.personal-info img {
+  width: 140px;
+  height: 140px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.contact-info img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.personal-info h3 {
+  font-size: 35px;
+  color: rgb(7, 7, 7);
+}
+
+.contact-info p,
+.contact-info a {
+  font-size: 18px;
+  color: rgb(7, 7, 7);
+}
+
+.contact-info a {
+  color: blue;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.space {
+  margin-bottom: 5%;
+}
+
+body {
+  background-color: rgb(214, 227, 238);
+}
